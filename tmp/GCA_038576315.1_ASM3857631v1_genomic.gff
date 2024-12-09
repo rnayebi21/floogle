@@ -1,0 +1,54 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3857631v1
+#!genome-build-accession NCBI_Assembly:GCA_038576315.1
+##sequence-region JN374998.1 1 2280
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN374998.1	Genbank	region	1	2280	.	+	.	ID=JN374998.1:1..2280;Dbxref=taxon:1068704;Name=1;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=1;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN374998.1	Genbank	gene	1	2280	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+JN374998.1	Genbank	CDS	1	2280	.	+	0	ID=cds-AEK86152.1;Parent=gene-PB2;Dbxref=NCBI_GP:AEK86152.1;Name=AEK86152.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=AEK86152.1
+##sequence-region JN375034.1 1 2274
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375034.1	Genbank	region	1	2274	.	+	.	ID=JN375034.1:1..2274;Dbxref=taxon:1068704;Name=2;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=2;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375034.1	Genbank	gene	1	2274	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+JN375034.1	Genbank	CDS	1	2274	.	+	0	ID=cds-AEK86106.1;Parent=gene-PB1;Dbxref=NCBI_GP:AEK86106.1;Name=AEK86106.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=AEK86106.1
+JN375034.1	Genbank	gene	95	367	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+JN375034.1	Genbank	sequence_feature	95	367	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region JN375070.1 1 2151
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375070.1	Genbank	region	1	2151	.	+	.	ID=JN375070.1:1..2151;Dbxref=taxon:1068704;Name=3;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=3;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375070.1	Genbank	gene	1	2151	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+JN375070.1	Genbank	CDS	1	2151	.	+	0	ID=cds-AEK86065.1;Parent=gene-PA;Dbxref=NCBI_GP:AEK86065.1;Name=AEK86065.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=AEK86065.1
+##sequence-region JN375106.1 1 1701
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375106.1	Genbank	region	1	1701	.	+	.	ID=JN375106.1:1..1701;Dbxref=taxon:1068704;Name=4;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=4;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375106.1	Genbank	gene	1	1701	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+JN375106.1	Genbank	CDS	1	1701	.	+	0	ID=cds-AEK86024.1;Parent=gene-HA;Dbxref=NCBI_GP:AEK86024.1;Name=AEK86024.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AEK86024.1
+##sequence-region JN375142.1 1 1497
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375142.1	Genbank	region	1	1497	.	+	.	ID=JN375142.1:1..1497;Dbxref=taxon:1068704;Name=5;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=5;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375142.1	Genbank	gene	1	1497	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+JN375142.1	Genbank	CDS	1	1497	.	+	0	ID=cds-AEK85983.1;Parent=gene-NP;Dbxref=NCBI_GP:AEK85983.1;Name=AEK85983.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=AEK85983.1
+##sequence-region JN375178.1 1 1410
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375178.1	Genbank	region	1	1410	.	+	.	ID=JN375178.1:1..1410;Dbxref=taxon:1068704;Name=6;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=6;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375178.1	Genbank	gene	1	1410	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+JN375178.1	Genbank	CDS	1	1410	.	+	0	ID=cds-AEK85942.1;Parent=gene-NA;Dbxref=NCBI_GP:AEK85942.1;Name=AEK85942.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AEK85942.1
+##sequence-region JN375214.1 1 986
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375214.1	Genbank	region	1	986	.	+	.	ID=JN375214.1:1..986;Dbxref=taxon:1068704;Name=7;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=7;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375214.1	Genbank	gene	1	982	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+JN375214.1	Genbank	CDS	1	26	.	+	0	ID=cds-AEK85865.1;Parent=gene-M2;Dbxref=NCBI_GP:AEK85865.1;Name=AEK85865.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AEK85865.1
+JN375214.1	Genbank	CDS	715	982	.	+	1	ID=cds-AEK85865.1;Parent=gene-M2;Dbxref=NCBI_GP:AEK85865.1;Name=AEK85865.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AEK85865.1
+JN375214.1	Genbank	gene	1	759	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+JN375214.1	Genbank	CDS	1	759	.	+	0	ID=cds-AEK85864.1;Parent=gene-M1;Dbxref=NCBI_GP:AEK85864.1;Name=AEK85864.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=AEK85864.1
+##sequence-region JN375250.1 1 848
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1068704
+JN375250.1	Genbank	region	1	848	.	+	.	ID=JN375250.1:1..848;Dbxref=taxon:1068704;Name=8;collection-date=31-Dec-2009;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Sus scrofa;segment=8;serotype=H1N1;strain=A/swine/Guangdong/213/2009
+JN375250.1	Genbank	gene	1	838	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+JN375250.1	Genbank	CDS	1	30	.	+	0	ID=cds-AEK85783.1;Parent=gene-NEP;Dbxref=NCBI_GP:AEK85783.1;Name=AEK85783.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AEK85783.1
+JN375250.1	Genbank	CDS	503	838	.	+	0	ID=cds-AEK85783.1;Parent=gene-NEP;Dbxref=NCBI_GP:AEK85783.1;Name=AEK85783.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AEK85783.1
+JN375250.1	Genbank	gene	1	660	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+JN375250.1	Genbank	CDS	1	660	.	+	0	ID=cds-AEK85782.1;Parent=gene-NS1;Dbxref=NCBI_GP:AEK85782.1;Name=AEK85782.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=AEK85782.1
+###

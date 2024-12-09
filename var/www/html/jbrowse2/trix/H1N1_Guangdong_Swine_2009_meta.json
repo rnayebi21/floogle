@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-07T18:48:53.297Z",
+  "tracks": [
+    {
+      "trackId": "guangdong_swine_2009_genes.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "guangdong_swine_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "guangdong_swine_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "H1N1_Guangdong_Swine_2009"
+  ]
+}

@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3920245v1
+#!genome-build-accession NCBI_Assembly:GCA_039202455.1
+##sequence-region MT244084.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244084.1	Genbank	region	1	2316	.	+	.	ID=MT244084.1:1..2316;Dbxref=taxon:11320;Name=1;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=1;serotype=H1N1;strain=A/Alabama/01/2020
+MT244084.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+MT244084.1	Genbank	CDS	16	2295	.	+	0	ID=cds-QIQ44286.1;Parent=gene-PB2;Dbxref=NCBI_GP:QIQ44286.1;Name=QIQ44286.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=QIQ44286.1
+##sequence-region MT244085.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244085.1	Genbank	region	1	2316	.	+	.	ID=MT244085.1:1..2316;Dbxref=taxon:11320;Name=2;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=2;serotype=H1N1;strain=A/Alabama/01/2020
+MT244085.1	Genbank	gene	13	2286	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+MT244085.1	Genbank	CDS	13	2286	.	+	0	ID=cds-QIQ44287.1;Parent=gene-PB1;Dbxref=NCBI_GP:QIQ44287.1;Name=QIQ44287.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=QIQ44287.1
+MT244085.1	Genbank	gene	107	379	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+MT244085.1	Genbank	sequence_feature	107	379	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region MT244086.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244086.1	Genbank	region	1	2208	.	+	.	ID=MT244086.1:1..2208;Dbxref=taxon:11320;Name=3;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=3;serotype=H1N1;strain=A/Alabama/01/2020
+MT244086.1	Genbank	gene	13	2163	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+MT244086.1	Genbank	CDS	13	2163	.	+	0	ID=cds-QIQ44288.1;Parent=gene-PA;Dbxref=NCBI_GP:QIQ44288.1;Name=QIQ44288.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=QIQ44288.1
+MT244086.1	Genbank	gene	13	712	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+MT244086.1	Genbank	CDS	13	582	.	+	0	ID=cds-QIQ44289.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QIQ44289.1;Name=QIQ44289.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QIQ44289.1
+MT244086.1	Genbank	CDS	584	712	.	+	0	ID=cds-QIQ44289.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QIQ44289.1;Name=QIQ44289.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QIQ44289.1
+##sequence-region MT244087.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244087.1	Genbank	region	1	1752	.	+	.	ID=MT244087.1:1..1752;Dbxref=taxon:11320;Name=4;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=4;serotype=H1N1;strain=A/Alabama/01/2020
+MT244087.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+MT244087.1	Genbank	CDS	21	1721	.	+	0	ID=cds-QIQ44290.1;Parent=gene-HA;Dbxref=NCBI_GP:QIQ44290.1;Name=QIQ44290.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=QIQ44290.1
+MT244087.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-QIQ44290.1:1..17;Parent=cds-QIQ44290.1;gbkey=Prot
+MT244087.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-QIQ44290.1:18..344;Parent=cds-QIQ44290.1;gbkey=Prot;product=HA1
+MT244087.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-QIQ44290.1:345..566;Parent=cds-QIQ44290.1;gbkey=Prot;product=HA2
+##sequence-region MT244088.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244088.1	Genbank	region	1	1540	.	+	.	ID=MT244088.1:1..1540;Dbxref=taxon:11320;Name=5;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=5;serotype=H1N1;strain=A/Alabama/01/2020
+MT244088.1	Genbank	gene	34	1530	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+MT244088.1	Genbank	CDS	34	1530	.	+	0	ID=cds-QIQ44291.1;Parent=gene-NP;Dbxref=NCBI_GP:QIQ44291.1;Name=QIQ44291.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=QIQ44291.1
+##sequence-region MT244089.1 1 1433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244089.1	Genbank	region	1	1433	.	+	.	ID=MT244089.1:1..1433;Dbxref=taxon:11320;Name=6;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=6;serotype=H1N1;strain=A/Alabama/01/2020
+MT244089.1	Genbank	gene	9	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+MT244089.1	Genbank	CDS	9	1418	.	+	0	ID=cds-QIQ44292.1;Parent=gene-NA;Dbxref=NCBI_GP:QIQ44292.1;Name=QIQ44292.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=QIQ44292.1
+##sequence-region MT244090.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244090.1	Genbank	region	1	1002	.	+	.	ID=MT244090.1:1..1002;Dbxref=taxon:11320;Name=7;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=7;serotype=H1N1;strain=A/Alabama/01/2020
+MT244090.1	Genbank	gene	14	995	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+MT244090.1	Genbank	CDS	14	39	.	+	0	ID=cds-QIQ44294.1;Parent=gene-M2;Dbxref=NCBI_GP:QIQ44294.1;Name=QIQ44294.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QIQ44294.1
+MT244090.1	Genbank	CDS	728	995	.	+	1	ID=cds-QIQ44294.1;Parent=gene-M2;Dbxref=NCBI_GP:QIQ44294.1;Name=QIQ44294.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QIQ44294.1
+MT244090.1	Genbank	gene	14	772	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+MT244090.1	Genbank	CDS	14	772	.	+	0	ID=cds-QIQ44293.1;Parent=gene-M1;Dbxref=NCBI_GP:QIQ44293.1;Name=QIQ44293.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=QIQ44293.1
+##sequence-region MT244091.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MT244091.1	Genbank	region	1	865	.	+	.	ID=MT244091.1:1..865;Dbxref=taxon:11320;Name=8;collection-date=12-Jan-2020;country=USA: Alabama;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;segment=8;serotype=H1N1;strain=A/Alabama/01/2020
+MT244091.1	Genbank	gene	15	852	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+MT244091.1	Genbank	CDS	15	44	.	+	0	ID=cds-QIQ44296.1;Parent=gene-NEP;Dbxref=NCBI_GP:QIQ44296.1;Name=QIQ44296.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QIQ44296.1
+MT244091.1	Genbank	CDS	517	852	.	+	0	ID=cds-QIQ44296.1;Parent=gene-NEP;Dbxref=NCBI_GP:QIQ44296.1;Name=QIQ44296.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QIQ44296.1
+MT244091.1	Genbank	gene	15	674	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+MT244091.1	Genbank	CDS	15	674	.	+	0	ID=cds-QIQ44295.1;Parent=gene-NS1;Dbxref=NCBI_GP:QIQ44295.1;Name=QIQ44295.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=QIQ44295.1
+###

@@ -1,0 +1,65 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3791538v1
+#!genome-build-accession NCBI_Assembly:GCA_037915385.1
+##sequence-region EF467818.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467818.1	Genbank	region	1	2341	.	+	.	ID=EF467818.1:1..2341;Dbxref=taxon:211044;Name=1;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=1;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467818.1	Genbank	sequence_feature	1	2341	.	+	.	ID=id-EF467818.1:1..2341;Dbxref=IRD:EF467818;gbkey=misc_feature
+EF467818.1	Genbank	gene	28	2307	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+EF467818.1	Genbank	CDS	28	2307	.	+	0	ID=cds-ABO21705.1;Parent=gene-PB2;Dbxref=NCBI_GP:ABO21705.1;Name=ABO21705.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=ABO21705.1
+##sequence-region EF467819.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467819.1	Genbank	region	1	2341	.	+	.	ID=EF467819.1:1..2341;Dbxref=taxon:211044;Name=2;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=2;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467819.1	Genbank	sequence_feature	1	2341	.	+	.	ID=id-EF467819.1:1..2341;Dbxref=IRD:EF467819;gbkey=misc_feature
+EF467819.1	Genbank	gene	25	2298	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+EF467819.1	Genbank	CDS	25	2298	.	+	0	ID=cds-ABO21706.1;Parent=gene-PB1;Dbxref=NCBI_GP:ABO21706.1;Name=ABO21706.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=ABO21706.1
+EF467819.1	Genbank	gene	119	382	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+EF467819.1	Genbank	CDS	119	382	.	+	0	ID=cds-ABO21707.1;Parent=gene-PB1-F2;Dbxref=NCBI_GP:ABO21707.1;Name=ABO21707.1;gbkey=CDS;gene=PB1-F2;product=PB1-F2 protein;protein_id=ABO21707.1
+##sequence-region EF467820.1 1 2233
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467820.1	Genbank	region	1	2233	.	+	.	ID=EF467820.1:1..2233;Dbxref=taxon:211044;Name=3;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=3;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467820.1	Genbank	sequence_feature	1	2233	.	+	.	ID=id-EF467820.1:1..2233;Dbxref=IRD:EF467820;gbkey=misc_feature
+EF467820.1	Genbank	gene	25	2175	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+EF467820.1	Genbank	CDS	25	2175	.	+	0	ID=cds-ABO21708.1;Parent=gene-PA;Dbxref=NCBI_GP:ABO21708.1;Name=ABO21708.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ABO21708.1
+##sequence-region EF467821.1 1 1775
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467821.1	Genbank	region	1	1775	.	+	.	ID=EF467821.1:1..1775;Dbxref=taxon:211044;Name=4;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=4;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467821.1	Genbank	sequence_feature	1	1775	.	+	.	ID=id-EF467821.1:1..1775;Dbxref=IRD:EF467821;gbkey=misc_feature
+EF467821.1	Genbank	gene	33	1730	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+EF467821.1	Genbank	CDS	33	1730	.	+	0	ID=cds-ABO21709.1;Parent=gene-HA;Dbxref=NCBI_GP:ABO21709.1;Name=ABO21709.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ABO21709.1
+EF467821.1	Genbank	signal_peptide_region_of_CDS	33	83	.	+	.	ID=id-ABO21709.1:1..17;Parent=cds-ABO21709.1;gbkey=Prot
+EF467821.1	Genbank	mature_protein_region_of_CDS	84	1061	.	+	.	ID=id-ABO21709.1:18..343;Parent=cds-ABO21709.1;gbkey=Prot;product=HA1
+EF467821.1	Genbank	mature_protein_region_of_CDS	1062	1727	.	+	.	ID=id-ABO21709.1:344..565;Parent=cds-ABO21709.1;gbkey=Prot;product=HA2
+##sequence-region EF467822.1 1 1565
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467822.1	Genbank	region	1	1565	.	+	.	ID=EF467822.1:1..1565;Dbxref=taxon:211044;Name=5;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=5;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467822.1	Genbank	sequence_feature	1	1565	.	+	.	ID=id-EF467822.1:1..1565;Dbxref=IRD:EF467822;gbkey=misc_feature
+EF467822.1	Genbank	gene	46	1542	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+EF467822.1	Genbank	CDS	46	1542	.	+	0	ID=cds-ABO21710.1;Parent=gene-NP;Dbxref=NCBI_GP:ABO21710.1;Name=ABO21710.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=ABO21710.1
+##sequence-region EF467823.1 1 1413
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467823.1	Genbank	region	1	1413	.	+	.	ID=EF467823.1:1..1413;Dbxref=taxon:211044;Name=6;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=6;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467823.1	Genbank	sequence_feature	1	1413	.	+	.	ID=id-EF467823.1:1..1413;Dbxref=IRD:EF467823;gbkey=misc_feature
+EF467823.1	Genbank	gene	21	1385	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+EF467823.1	Genbank	CDS	21	1385	.	+	0	ID=cds-ABO21711.1;Parent=gene-NA;Dbxref=NCBI_GP:ABO21711.1;Name=ABO21711.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ABO21711.1
+##sequence-region EF467824.1 1 1027
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467824.1	Genbank	region	1	1027	.	+	.	ID=EF467824.1:1..1027;Dbxref=taxon:211044;Name=7;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=7;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467824.1	Genbank	sequence_feature	1	1027	.	+	.	ID=id-EF467824.1:1..1027;Dbxref=IRD:EF467824;gbkey=misc_feature
+EF467824.1	Genbank	gene	26	1007	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+EF467824.1	Genbank	CDS	26	51	.	+	0	ID=cds-ABO21713.1;Parent=gene-M2;Dbxref=NCBI_GP:ABO21713.1;Name=ABO21713.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABO21713.1
+EF467824.1	Genbank	CDS	740	1007	.	+	1	ID=cds-ABO21713.1;Parent=gene-M2;Dbxref=NCBI_GP:ABO21713.1;Name=ABO21713.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABO21713.1
+EF467824.1	Genbank	gene	26	784	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+EF467824.1	Genbank	CDS	26	784	.	+	0	ID=cds-ABO21712.1;Parent=gene-M1;Dbxref=NCBI_GP:ABO21712.1;Name=ABO21712.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=ABO21712.1
+##sequence-region EF467817.1 1 890
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=211044
+EF467817.1	Genbank	region	1	890	.	+	.	ID=EF467817.1:1..890;Dbxref=taxon:211044;Name=8;collection-date=1934;country=Puerto Rico;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage level ExMDCK6;old-name=Influenza A virus (A/Puerto Rico/8/34(H1N1));segment=8;serotype=H1N1;strain=A/Puerto Rico/8/34
+EF467817.1	Genbank	sequence_feature	1	890	.	+	.	ID=id-EF467817.1:1..890;Dbxref=IRD:EF467817;gbkey=misc_feature
+EF467817.1	Genbank	gene	27	864	.	+	.	ID=gene-NS2;Name=NS2;gbkey=Gene;gene=NS2;gene_biotype=protein_coding
+EF467817.1	Genbank	CDS	27	56	.	+	0	ID=cds-ABO21704.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABO21704.1;Name=ABO21704.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABO21704.1
+EF467817.1	Genbank	CDS	529	864	.	+	0	ID=cds-ABO21704.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABO21704.1;Name=ABO21704.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABO21704.1
+EF467817.1	Genbank	gene	27	719	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+EF467817.1	Genbank	CDS	27	719	.	+	0	ID=cds-ABO21703.1;Parent=gene-NS1;Dbxref=NCBI_GP:ABO21703.1;Name=ABO21703.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=ABO21703.1
+###

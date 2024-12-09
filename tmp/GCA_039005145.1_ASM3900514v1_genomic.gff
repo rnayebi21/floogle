@@ -1,0 +1,44 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3900514v1
+#!genome-build-accession NCBI_Assembly:GCA_039005145.1
+##sequence-region LC720188.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720188.1	DDBJ	region	1	2316	.	+	.	ID=LC720188.1:1..2316;Dbxref=taxon:11320;Name=1;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=1;serotype=H1N1
+LC720188.1	DDBJ	CDS	16	2295	.	+	0	ID=cds-BDP39084.1;Dbxref=NCBI_GP:BDP39084.1;Name=BDP39084.1;gbkey=CDS;product=polymerase pb2;protein_id=BDP39084.1
+##sequence-region LC720187.1 1 2339
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720187.1	DDBJ	region	1	2339	.	+	.	ID=LC720187.1:1..2339;Dbxref=taxon:11320;Name=2;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=2;serotype=H1N1
+LC720187.1	DDBJ	CDS	25	2298	.	+	0	ID=cds-BDP39083.1;Dbxref=NCBI_GP:BDP39083.1;Name=BDP39083.1;gbkey=CDS;product=polymerase pb1;protein_id=BDP39083.1
+##sequence-region LC720186.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720186.1	DDBJ	region	1	2208	.	+	.	ID=LC720186.1:1..2208;Dbxref=taxon:11320;Name=3;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=3;serotype=H1N1
+LC720186.1	DDBJ	CDS	13	2163	.	+	0	ID=cds-BDP39081.1;Dbxref=NCBI_GP:BDP39081.1;Name=BDP39081.1;gbkey=CDS;product=polymerase PA;protein_id=BDP39081.1
+LC720186.1	DDBJ	CDS	13	582	.	+	0	ID=cds-BDP39082.1;Dbxref=NCBI_GP:BDP39082.1;Name=BDP39082.1;gbkey=CDS;product=pa x protein;protein_id=BDP39082.1
+LC720186.1	DDBJ	CDS	584	712	.	+	0	ID=cds-BDP39082.1;Dbxref=NCBI_GP:BDP39082.1;Name=BDP39082.1;gbkey=CDS;product=pa x protein;protein_id=BDP39082.1
+##sequence-region LC720181.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720181.1	DDBJ	region	1	1752	.	+	.	ID=LC720181.1:1..1752;Dbxref=taxon:11320;Name=4;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=4;serotype=H1N1
+LC720181.1	DDBJ	CDS	21	1721	.	+	0	ID=cds-BDP39074.1;Dbxref=NCBI_GP:BDP39074.1;Name=BDP39074.1;gbkey=CDS;product=hemagglutinin;protein_id=BDP39074.1
+##sequence-region LC720185.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720185.1	DDBJ	region	1	1540	.	+	.	ID=LC720185.1:1..1540;Dbxref=taxon:11320;Name=5;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=5;serotype=H1N1
+LC720185.1	DDBJ	CDS	34	1530	.	+	0	ID=cds-BDP39080.1;Dbxref=NCBI_GP:BDP39080.1;Name=BDP39080.1;gbkey=CDS;product=nucleocapsid protein;protein_id=BDP39080.1
+##sequence-region LC720183.1 1 1433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720183.1	DDBJ	region	1	1433	.	+	.	ID=LC720183.1:1..1433;Dbxref=taxon:11320;Name=6;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=6;serotype=H1N1
+LC720183.1	DDBJ	CDS	9	1418	.	+	0	ID=cds-BDP39077.1;Dbxref=NCBI_GP:BDP39077.1;Name=BDP39077.1;gbkey=CDS;product=neuraminidase;protein_id=BDP39077.1
+##sequence-region LC720182.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720182.1	DDBJ	region	1	1002	.	+	.	ID=LC720182.1:1..1002;Dbxref=taxon:11320;Name=7;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=7;serotype=H1N1
+LC720182.1	DDBJ	CDS	14	39	.	+	0	ID=cds-BDP39075.1;Dbxref=NCBI_GP:BDP39075.1;Name=BDP39075.1;gbkey=CDS;product=matrix protein 2;protein_id=BDP39075.1
+LC720182.1	DDBJ	CDS	728	995	.	+	1	ID=cds-BDP39075.1;Dbxref=NCBI_GP:BDP39075.1;Name=BDP39075.1;gbkey=CDS;product=matrix protein 2;protein_id=BDP39075.1
+LC720182.1	DDBJ	CDS	14	772	.	+	0	ID=cds-BDP39076.1;Dbxref=NCBI_GP:BDP39076.1;Name=BDP39076.1;gbkey=CDS;product=matrix protein 1;protein_id=BDP39076.1
+##sequence-region LC720184.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+LC720184.1	DDBJ	region	1	865	.	+	.	ID=LC720184.1:1..865;Dbxref=taxon:11320;Name=8;collection-date=2018;country=Japan: Fukushima;gbkey=Src;isolate=A/Fukushima/H469/2018;isolation-source=nasopharyngea swab using HBTEC-ALI culture;mol_type=viral cRNA;nat-host=Homo sapiens;segment=8;serotype=H1N1
+LC720184.1	DDBJ	CDS	15	44	.	+	0	ID=cds-BDP39078.1;Dbxref=NCBI_GP:BDP39078.1;Name=BDP39078.1;gbkey=CDS;product=nuclear export protein;protein_id=BDP39078.1
+LC720184.1	DDBJ	CDS	517	852	.	+	0	ID=cds-BDP39078.1;Dbxref=NCBI_GP:BDP39078.1;Name=BDP39078.1;gbkey=CDS;product=nuclear export protein;protein_id=BDP39078.1
+LC720184.1	DDBJ	CDS	15	674	.	+	0	ID=cds-BDP39079.1;Dbxref=NCBI_GP:BDP39079.1;Name=BDP39079.1;gbkey=CDS;product=nonstructural protein 1;protein_id=BDP39079.1
+###

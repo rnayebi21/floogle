@@ -1,0 +1,57 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3902342v1
+#!genome-build-accession NCBI_Assembly:GCA_039023425.1
+##sequence-region CY053276.1 1 2293
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053276.1	Genbank	region	1	2293	.	+	.	ID=CY053276.1:1..2293;Dbxref=taxon:690037;Name=1;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=1;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053276.1	Genbank	gene	2	2281	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+CY053276.1	Genbank	CDS	2	2281	.	+	0	ID=cds-ACZ97352.1;Parent=gene-PB2;Dbxref=NCBI_GP:ACZ97352.1;Name=ACZ97352.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=ACZ97352.1
+##sequence-region CY053275.1 1 2303
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053275.1	Genbank	region	1	2303	.	+	.	ID=CY053275.1:1..2303;Dbxref=taxon:690037;Name=2;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=2;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053275.1	Genbank	gene	5	2278	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+CY053275.1	Genbank	CDS	5	2278	.	+	0	ID=cds-ACZ97351.1;Parent=gene-PB1;Dbxref=NCBI_GP:ACZ97351.1;Name=ACZ97351.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=ACZ97351.1
+CY053275.1	Genbank	gene	213	371	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+CY053275.1	Genbank	sequence_feature	213	371	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region CY053274.1 1 2172
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053274.1	Genbank	region	1	2172	.	+	.	ID=CY053274.1:1..2172;Dbxref=taxon:690037;Name=3;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=3;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053274.1	Genbank	gene	7	2157	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+CY053274.1	Genbank	CDS	7	2157	.	+	0	ID=cds-ACZ97350.1;Parent=gene-PA;Dbxref=NCBI_GP:ACZ97350.1;Name=ACZ97350.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ACZ97350.1
+##sequence-region CY053269.1 1 1734
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053269.1	Genbank	region	1	1734	.	+	.	ID=CY053269.1:1..1734;Dbxref=taxon:690037;Name=4;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=4;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053269.1	Genbank	gene	14	1714	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY053269.1	Genbank	CDS	14	1714	.	+	0	ID=cds-ACZ97343.1;Parent=gene-HA;Dbxref=NCBI_GP:ACZ97343.1;Name=ACZ97343.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ACZ97343.1
+CY053269.1	Genbank	signal_peptide_region_of_CDS	14	64	.	+	.	ID=id-ACZ97343.1:1..17;Parent=cds-ACZ97343.1;gbkey=Prot
+CY053269.1	Genbank	mature_protein_region_of_CDS	65	1045	.	+	.	ID=id-ACZ97343.1:18..344;Parent=cds-ACZ97343.1;gbkey=Prot;product=HA1
+CY053269.1	Genbank	mature_protein_region_of_CDS	1046	1711	.	+	.	ID=id-ACZ97343.1:345..566;Parent=cds-ACZ97343.1;gbkey=Prot;product=HA2
+##sequence-region CY053272.1 1 1523
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053272.1	Genbank	region	1	1523	.	+	.	ID=CY053272.1:1..1523;Dbxref=taxon:690037;Name=5;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=5;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053272.1	Genbank	gene	26	1522	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+CY053272.1	Genbank	CDS	26	1522	.	+	0	ID=cds-ACZ97347.1;Parent=gene-NP;Dbxref=NCBI_GP:ACZ97347.1;Name=ACZ97347.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=ACZ97347.1
+##sequence-region CY053271.1 1 1421
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053271.1	Genbank	region	1	1421	.	+	.	ID=CY053271.1:1..1421;Dbxref=taxon:690037;Name=6;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=6;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053271.1	Genbank	gene	3	1412	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY053271.1	Genbank	CDS	3	1412	.	+	0	ID=cds-ACZ97346.1;Parent=gene-NA;Dbxref=NCBI_GP:ACZ97346.1;Name=ACZ97346.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ACZ97346.1
+##sequence-region CY053270.1 1 987
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053270.1	Genbank	region	1	987	.	+	.	ID=CY053270.1:1..987;Dbxref=taxon:690037;Name=7;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=7;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053270.1	Genbank	gene	6	987	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+CY053270.1	Genbank	CDS	6	31	.	+	0	ID=cds-ACZ97345.1;Parent=gene-M2;Dbxref=NCBI_GP:ACZ97345.1;Name=ACZ97345.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ACZ97345.1
+CY053270.1	Genbank	CDS	720	987	.	+	1	ID=cds-ACZ97345.1;Parent=gene-M2;Dbxref=NCBI_GP:ACZ97345.1;Name=ACZ97345.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ACZ97345.1
+CY053270.1	Genbank	gene	6	764	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+CY053270.1	Genbank	CDS	6	764	.	+	0	ID=cds-ACZ97344.1;Parent=gene-M1;Dbxref=NCBI_GP:ACZ97344.1;Name=ACZ97344.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=ACZ97344.1
+##sequence-region CY053273.1 1 850
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=690037
+CY053273.1	Genbank	region	1	850	.	+	.	ID=CY053273.1:1..850;Dbxref=taxon:690037;Name=8;collection-date=30-May-2009;country=USA: Brownsville;gbkey=Src;isolation-source=age:7Y;mol_type=viral cRNA;nat-host=human;segment=8;serotype=H1N1;strain=A/Brownsville/39OS/2009
+CY053273.1	Genbank	gene	7	844	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+CY053273.1	Genbank	CDS	7	36	.	+	0	ID=cds-ACZ97349.1;Parent=gene-NEP;Dbxref=NCBI_GP:ACZ97349.1;Name=ACZ97349.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=ACZ97349.1
+CY053273.1	Genbank	CDS	509	844	.	+	0	ID=cds-ACZ97349.1;Parent=gene-NEP;Dbxref=NCBI_GP:ACZ97349.1;Name=ACZ97349.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=ACZ97349.1
+CY053273.1	Genbank	gene	7	666	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY053273.1	Genbank	CDS	7	666	.	+	0	ID=cds-ACZ97348.1;Parent=gene-NS1;Dbxref=NCBI_GP:ACZ97348.1;Name=ACZ97348.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=ACZ97348.1
+###

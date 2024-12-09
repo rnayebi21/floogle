@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-07T18:48:53.308Z",
+  "tracks": [
+    {
+      "trackId": "alabama_2020_genes.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "alabama_2020_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alabama_2020_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "H1N1_Alabama_2020"
+  ]
+}

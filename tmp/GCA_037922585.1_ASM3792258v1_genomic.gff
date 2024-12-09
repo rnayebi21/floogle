@@ -1,0 +1,57 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3792258v1
+#!genome-build-accession NCBI_Assembly:GCA_037922585.1
+##sequence-region CY009291.1 1 2313
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009291.1	Genbank	region	1	2313	.	+	.	ID=CY009291.1:1..2313;Dbxref=taxon:368714;Name=1;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=1;serotype=H1N1;strain=A/USSR/92/1977
+CY009291.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+CY009291.1	Genbank	CDS	16	2295	.	+	0	ID=cds-ABD60943.1;Parent=gene-PB2;Dbxref=NCBI_GP:ABD60943.1;Name=ABD60943.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=ABD60943.1
+##sequence-region CY009290.1 1 2313
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009290.1	Genbank	region	1	2313	.	+	.	ID=CY009290.1:1..2313;Dbxref=taxon:368714;Name=2;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=2;serotype=H1N1;strain=A/USSR/92/1977
+CY009290.1	Genbank	gene	14	2287	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+CY009290.1	Genbank	CDS	14	2287	.	+	0	ID=cds-ABD60941.1;Parent=gene-PB1;Dbxref=NCBI_GP:ABD60941.1;Name=ABD60941.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=ABD60941.1
+CY009290.1	Genbank	gene	108	281	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+CY009290.1	Genbank	CDS	108	281	.	+	0	ID=cds-ABD60942.1;Parent=gene-PB1-F2;Dbxref=NCBI_GP:ABD60942.1;Name=ABD60942.1;gbkey=CDS;gene=PB1-F2;product=PB1-F2 protein;protein_id=ABD60942.1
+##sequence-region CY009289.1 1 2207
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009289.1	Genbank	region	1	2207	.	+	.	ID=CY009289.1:1..2207;Dbxref=taxon:368714;Name=3;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=3;serotype=H1N1;strain=A/USSR/92/1977
+CY009289.1	Genbank	gene	14	2164	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+CY009289.1	Genbank	CDS	14	2164	.	+	0	ID=cds-ABD60940.1;Parent=gene-PA;Dbxref=NCBI_GP:ABD60940.1;Name=ABD60940.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ABD60940.1
+##sequence-region CY009284.1 1 1750
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009284.1	Genbank	region	1	1750	.	+	.	ID=CY009284.1:1..1750;Dbxref=taxon:368714;Name=4;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=4;serotype=H1N1;strain=A/USSR/92/1977
+CY009284.1	Genbank	gene	20	1720	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY009284.1	Genbank	CDS	20	1720	.	+	0	ID=cds-ABD60933.1;Parent=gene-HA;Dbxref=NCBI_GP:ABD60933.1;Name=ABD60933.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ABD60933.1
+CY009284.1	Genbank	signal_peptide_region_of_CDS	20	70	.	+	.	ID=id-ABD60933.1:1..17;Parent=cds-ABD60933.1;gbkey=Prot
+CY009284.1	Genbank	mature_protein_region_of_CDS	71	1051	.	+	.	ID=id-ABD60933.1:18..344;Parent=cds-ABD60933.1;gbkey=Prot;product=HA1
+CY009284.1	Genbank	mature_protein_region_of_CDS	1052	1717	.	+	.	ID=id-ABD60933.1:345..566;Parent=cds-ABD60933.1;gbkey=Prot;product=HA2
+##sequence-region CY009287.1 1 1538
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009287.1	Genbank	region	1	1538	.	+	.	ID=CY009287.1:1..1538;Dbxref=taxon:368714;Name=5;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=5;serotype=H1N1;strain=A/USSR/92/1977
+CY009287.1	Genbank	gene	33	1529	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+CY009287.1	Genbank	CDS	33	1529	.	+	0	ID=cds-ABD60937.1;Parent=gene-NP;Dbxref=NCBI_GP:ABD60937.1;Name=ABD60937.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=ABD60937.1
+##sequence-region CY009286.1 1 1435
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009286.1	Genbank	region	1	1435	.	+	.	ID=CY009286.1:1..1435;Dbxref=taxon:368714;Name=6;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=6;serotype=H1N1;strain=A/USSR/92/1977
+CY009286.1	Genbank	gene	10	1422	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY009286.1	Genbank	CDS	10	1422	.	+	0	ID=cds-ABD60936.1;Parent=gene-NA;Dbxref=NCBI_GP:ABD60936.1;Name=ABD60936.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ABD60936.1
+##sequence-region CY009285.1 1 1000
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009285.1	Genbank	region	1	1000	.	+	.	ID=CY009285.1:1..1000;Dbxref=taxon:368714;Name=7;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=7;serotype=H1N1;strain=A/USSR/92/1977
+CY009285.1	Genbank	gene	15	996	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+CY009285.1	Genbank	CDS	15	40	.	+	0	ID=cds-ABD60935.1;Parent=gene-M2;Dbxref=NCBI_GP:ABD60935.1;Name=ABD60935.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABD60935.1
+CY009285.1	Genbank	CDS	729	996	.	+	1	ID=cds-ABD60935.1;Parent=gene-M2;Dbxref=NCBI_GP:ABD60935.1;Name=ABD60935.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABD60935.1
+CY009285.1	Genbank	gene	15	773	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+CY009285.1	Genbank	CDS	15	773	.	+	0	ID=cds-ABD60934.1;Parent=gene-M1;Dbxref=NCBI_GP:ABD60934.1;Name=ABD60934.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=ABD60934.1
+##sequence-region CY009288.1 1 854
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=368714
+CY009288.1	Genbank	region	1	854	.	+	.	ID=CY009288.1:1..854;Dbxref=taxon:368714;Name=8;collection-date=1977;country=Russia;gbkey=Src;mol_type=viral cRNA;nat-host=Human;old-name=Influenza A virus (A/USSR/92/77(H1N1));segment=8;serotype=H1N1;strain=A/USSR/92/1977
+CY009288.1	Genbank	gene	14	851	.	+	.	ID=gene-NS2;Name=NS2;gbkey=Gene;gene=NS2;gene_biotype=protein_coding
+CY009288.1	Genbank	CDS	14	43	.	+	0	ID=cds-ABD60939.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABD60939.1;Name=ABD60939.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABD60939.1
+CY009288.1	Genbank	CDS	516	851	.	+	0	ID=cds-ABD60939.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABD60939.1;Name=ABD60939.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABD60939.1
+CY009288.1	Genbank	gene	14	727	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY009288.1	Genbank	CDS	14	727	.	+	0	ID=cds-ABD60938.1;Parent=gene-NS1;Dbxref=NCBI_GP:ABD60938.1;Name=ABD60938.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=ABD60938.1
+###

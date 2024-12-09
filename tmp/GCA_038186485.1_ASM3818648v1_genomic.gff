@@ -1,0 +1,57 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3818648v1
+#!genome-build-accession NCBI_Assembly:GCA_038186485.1
+##sequence-region CY002679.1 1 2310
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002679.1	Genbank	region	1	2310	.	+	.	ID=CY002679.1:1..2310;Dbxref=taxon:327170;Name=1;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=1;serotype=H1N1;strain=A/New York/310/2001
+CY002679.1	Genbank	gene	27	2306	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+CY002679.1	Genbank	CDS	27	2306	.	+	0	ID=cds-ABA08529.1;Parent=gene-PB2;Dbxref=NCBI_GP:ABA08529.1;Name=ABA08529.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=ABA08529.1
+##sequence-region CY002678.1 1 2296
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002678.1	Genbank	region	1	2296	.	+	.	ID=CY002678.1:1..2296;Dbxref=taxon:327170;Name=2;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=2;serotype=H1N1;strain=A/New York/310/2001
+CY002678.1	Genbank	gene	22	2295	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+CY002678.1	Genbank	CDS	22	2295	.	+	0	ID=cds-ABA08527.1;Parent=gene-PB1;Dbxref=NCBI_GP:ABA08527.1;Name=ABA08527.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=ABA08527.1
+CY002678.1	Genbank	gene	116	289	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+CY002678.1	Genbank	CDS	116	289	.	+	0	ID=cds-ABA08528.1;Parent=gene-PB1-F2;Dbxref=NCBI_GP:ABA08528.1;Name=ABA08528.1;gbkey=CDS;gene=PB1-F2;product=PB1-F2 protein;protein_id=ABA08528.1
+##sequence-region CY002677.1 1 2233
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002677.1	Genbank	region	1	2233	.	+	.	ID=CY002677.1:1..2233;Dbxref=taxon:327170;Name=3;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=3;serotype=H1N1;strain=A/New York/310/2001
+CY002677.1	Genbank	gene	25	2175	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+CY002677.1	Genbank	CDS	25	2175	.	+	0	ID=cds-ABA08526.1;Parent=gene-PA;Dbxref=NCBI_GP:ABA08526.1;Name=ABA08526.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ABA08526.1
+##sequence-region CY002672.1 1 1763
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002672.1	Genbank	region	1	1763	.	+	.	ID=CY002672.1:1..1763;Dbxref=taxon:327170;Name=4;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=4;serotype=H1N1;strain=A/New York/310/2001
+CY002672.1	Genbank	gene	21	1718	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY002672.1	Genbank	CDS	21	1718	.	+	0	ID=cds-ABA08519.1;Parent=gene-HA;Dbxref=NCBI_GP:ABA08519.1;Name=ABA08519.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ABA08519.1
+CY002672.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-ABA08519.1:1..17;Parent=cds-ABA08519.1;gbkey=Prot
+CY002672.1	Genbank	mature_protein_region_of_CDS	72	1049	.	+	.	ID=id-ABA08519.1:18..343;Parent=cds-ABA08519.1;gbkey=Prot;product=HA1
+CY002672.1	Genbank	mature_protein_region_of_CDS	1050	1715	.	+	.	ID=id-ABA08519.1:344..565;Parent=cds-ABA08519.1;gbkey=Prot;product=HA2
+##sequence-region CY002675.1 1 1551
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002675.1	Genbank	region	1	1551	.	+	.	ID=CY002675.1:1..1551;Dbxref=taxon:327170;Name=5;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=5;serotype=H1N1;strain=A/New York/310/2001
+CY002675.1	Genbank	gene	45	1541	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+CY002675.1	Genbank	CDS	45	1541	.	+	0	ID=cds-ABA08523.1;Parent=gene-NP;Dbxref=NCBI_GP:ABA08523.1;Name=ABA08523.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=ABA08523.1
+##sequence-region CY002674.1 1 1463
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002674.1	Genbank	region	1	1463	.	+	.	ID=CY002674.1:1..1463;Dbxref=taxon:327170;Name=6;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=6;serotype=H1N1;strain=A/New York/310/2001
+CY002674.1	Genbank	gene	21	1433	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY002674.1	Genbank	CDS	21	1433	.	+	0	ID=cds-ABA08522.1;Parent=gene-NA;Dbxref=NCBI_GP:ABA08522.1;Name=ABA08522.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ABA08522.1
+##sequence-region CY002673.1 1 1023
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002673.1	Genbank	region	1	1023	.	+	.	ID=CY002673.1:1..1023;Dbxref=taxon:327170;Name=7;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=7;serotype=H1N1;strain=A/New York/310/2001
+CY002673.1	Genbank	gene	22	1003	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+CY002673.1	Genbank	CDS	22	47	.	+	0	ID=cds-ABA08521.1;Parent=gene-M2;Dbxref=NCBI_GP:ABA08521.1;Name=ABA08521.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABA08521.1
+CY002673.1	Genbank	CDS	736	1003	.	+	1	ID=cds-ABA08521.1;Parent=gene-M2;Dbxref=NCBI_GP:ABA08521.1;Name=ABA08521.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ABA08521.1
+CY002673.1	Genbank	gene	22	780	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+CY002673.1	Genbank	CDS	22	780	.	+	0	ID=cds-ABA08520.1;Parent=gene-M1;Dbxref=NCBI_GP:ABA08520.1;Name=ABA08520.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=ABA08520.1
+##sequence-region CY002676.1 1 882
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=327170
+CY002676.1	Genbank	region	1	882	.	+	.	ID=CY002676.1:1..882;Dbxref=taxon:327170;Name=8;collection-date=01/08/2001;country=USA: Nassau County%2C NY;gbkey=Src;isolation-source=age:3m;lab-host=Unknown 1 RhMK 1 passage(s);mol_type=genomic RNA;nat-host=human;segment=8;serotype=H1N1;strain=A/New York/310/2001
+CY002676.1	Genbank	gene	27	864	.	+	.	ID=gene-NS2;Name=NS2;gbkey=Gene;gene=NS2;gene_biotype=protein_coding
+CY002676.1	Genbank	CDS	27	56	.	+	0	ID=cds-ABA08525.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABA08525.1;Name=ABA08525.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABA08525.1
+CY002676.1	Genbank	CDS	529	864	.	+	0	ID=cds-ABA08525.1;Parent=gene-NS2;Dbxref=NCBI_GP:ABA08525.1;Name=ABA08525.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=ABA08525.1
+CY002676.1	Genbank	gene	27	719	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY002676.1	Genbank	CDS	27	719	.	+	0	ID=cds-ABA08524.1;Parent=gene-NS1;Dbxref=NCBI_GP:ABA08524.1;Name=ABA08524.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=ABA08524.1
+###

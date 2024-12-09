@@ -1,0 +1,57 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3857637v1
+#!genome-build-accession NCBI_Assembly:GCA_038576375.1
+##sequence-region CY061577.1 1 2293
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061577.1	Genbank	region	1	2293	.	+	.	ID=CY061577.1:1..2293;Dbxref=taxon:742262;Name=1;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=1;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061577.1	Genbank	gene	2	2281	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+CY061577.1	Genbank	CDS	2	2281	.	+	0	ID=cds-ADF42718.1;Parent=gene-PB2;Dbxref=NCBI_GP:ADF42718.1;Name=ADF42718.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=ADF42718.1
+##sequence-region CY061576.1 1 2303
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061576.1	Genbank	region	1	2303	.	+	.	ID=CY061576.1:1..2303;Dbxref=taxon:742262;Name=2;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=2;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061576.1	Genbank	gene	5	2278	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+CY061576.1	Genbank	CDS	5	2278	.	+	0	ID=cds-ADF42717.1;Parent=gene-PB1;Dbxref=NCBI_GP:ADF42717.1;Name=ADF42717.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=ADF42717.1
+CY061576.1	Genbank	gene	99	371	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+CY061576.1	Genbank	sequence_feature	99	371	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region CY061575.1 1 2175
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061575.1	Genbank	region	1	2175	.	+	.	ID=CY061575.1:1..2175;Dbxref=taxon:742262;Name=3;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=3;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061575.1	Genbank	gene	7	2157	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+CY061575.1	Genbank	CDS	7	2157	.	+	0	ID=cds-ADF42716.1;Parent=gene-PA;Dbxref=NCBI_GP:ADF42716.1;Name=ADF42716.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ADF42716.1
+##sequence-region CY061570.1 1 1735
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061570.1	Genbank	region	1	1735	.	+	.	ID=CY061570.1:1..1735;Dbxref=taxon:742262;Name=4;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=4;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061570.1	Genbank	gene	14	1714	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY061570.1	Genbank	CDS	14	1714	.	+	0	ID=cds-ADF42709.1;Parent=gene-HA;Dbxref=NCBI_GP:ADF42709.1;Name=ADF42709.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ADF42709.1
+CY061570.1	Genbank	signal_peptide_region_of_CDS	14	64	.	+	.	ID=id-ADF42709.1:1..17;Parent=cds-ADF42709.1;gbkey=Prot
+CY061570.1	Genbank	mature_protein_region_of_CDS	65	1045	.	+	.	ID=id-ADF42709.1:18..344;Parent=cds-ADF42709.1;gbkey=Prot;product=HA1
+CY061570.1	Genbank	mature_protein_region_of_CDS	1046	1711	.	+	.	ID=id-ADF42709.1:345..566;Parent=cds-ADF42709.1;gbkey=Prot;product=HA2
+##sequence-region CY061573.1 1 1523
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061573.1	Genbank	region	1	1523	.	+	.	ID=CY061573.1:1..1523;Dbxref=taxon:742262;Name=5;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=5;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061573.1	Genbank	gene	26	1522	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+CY061573.1	Genbank	CDS	26	1522	.	+	0	ID=cds-ADF42713.1;Parent=gene-NP;Dbxref=NCBI_GP:ADF42713.1;Name=ADF42713.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=ADF42713.1
+##sequence-region CY061572.1 1 1412
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061572.1	Genbank	region	1	1412	.	+	.	ID=CY061572.1:1..1412;Dbxref=taxon:742262;Name=6;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=6;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061572.1	Genbank	gene	3	1412	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY061572.1	Genbank	CDS	3	1412	.	+	0	ID=cds-ADF42712.1;Parent=gene-NA;Dbxref=NCBI_GP:ADF42712.1;Name=ADF42712.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ADF42712.1
+##sequence-region CY061571.1 1 987
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061571.1	Genbank	region	1	987	.	+	.	ID=CY061571.1:1..987;Dbxref=taxon:742262;Name=7;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=7;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061571.1	Genbank	gene	6	987	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+CY061571.1	Genbank	CDS	6	31	.	+	0	ID=cds-ADF42711.1;Parent=gene-M2;Dbxref=NCBI_GP:ADF42711.1;Name=ADF42711.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ADF42711.1
+CY061571.1	Genbank	CDS	720	987	.	+	1	ID=cds-ADF42711.1;Parent=gene-M2;Dbxref=NCBI_GP:ADF42711.1;Name=ADF42711.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=ADF42711.1
+CY061571.1	Genbank	gene	6	764	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+CY061571.1	Genbank	CDS	6	764	.	+	0	ID=cds-ADF42710.1;Parent=gene-M1;Dbxref=NCBI_GP:ADF42710.1;Name=ADF42710.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=ADF42710.1
+##sequence-region CY061574.1 1 850
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742262
+CY061574.1	Genbank	region	1	850	.	+	.	ID=CY061574.1:1..850;Dbxref=taxon:742262;Name=8;collection-date=31-Dec-2009;country=USA: Houston area;gbkey=Src;mol_type=viral cRNA;nat-host=human%3B gender M;segment=8;serotype=H1N1;strain=A/Texas/JMS400/2009
+CY061574.1	Genbank	gene	7	844	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+CY061574.1	Genbank	CDS	7	36	.	+	0	ID=cds-ADF42715.1;Parent=gene-NEP;Dbxref=NCBI_GP:ADF42715.1;Name=ADF42715.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=ADF42715.1
+CY061574.1	Genbank	CDS	509	844	.	+	0	ID=cds-ADF42715.1;Parent=gene-NEP;Dbxref=NCBI_GP:ADF42715.1;Name=ADF42715.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=ADF42715.1
+CY061574.1	Genbank	gene	7	666	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY061574.1	Genbank	CDS	7	666	.	+	0	ID=cds-ADF42714.1;Parent=gene-NS1;Dbxref=NCBI_GP:ADF42714.1;Name=ADF42714.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=ADF42714.1
+###

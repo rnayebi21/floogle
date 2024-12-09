@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3906339v1
+#!genome-build-accession NCBI_Assembly:GCA_039063395.1
+##sequence-region MH360139.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360139.1	Genbank	region	1	2316	.	+	.	ID=MH360139.1:1..2316;Dbxref=taxon:11320;Name=1;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=1;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360139.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+MH360139.1	Genbank	CDS	16	2295	.	+	0	ID=cds-AWK91056.1;Parent=gene-PB2;Dbxref=NCBI_GP:AWK91056.1;Name=AWK91056.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=AWK91056.1
+##sequence-region MH360140.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360140.1	Genbank	region	1	2316	.	+	.	ID=MH360140.1:1..2316;Dbxref=taxon:11320;Name=2;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=2;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360140.1	Genbank	gene	13	2286	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+MH360140.1	Genbank	CDS	13	2286	.	+	0	ID=cds-AWK91057.1;Parent=gene-PB1;Dbxref=NCBI_GP:AWK91057.1;Name=AWK91057.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=AWK91057.1
+MH360140.1	Genbank	gene	107	379	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+MH360140.1	Genbank	sequence_feature	107	379	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region MH360141.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360141.1	Genbank	region	1	2208	.	+	.	ID=MH360141.1:1..2208;Dbxref=taxon:11320;Name=3;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=3;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360141.1	Genbank	gene	13	2163	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+MH360141.1	Genbank	CDS	13	2163	.	+	0	ID=cds-AWK91058.1;Parent=gene-PA;Dbxref=NCBI_GP:AWK91058.1;Name=AWK91058.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=AWK91058.1
+MH360141.1	Genbank	gene	13	712	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+MH360141.1	Genbank	CDS	13	582	.	+	0	ID=cds-AWK91059.1;Parent=gene-PA-X;Dbxref=NCBI_GP:AWK91059.1;Name=AWK91059.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=AWK91059.1
+MH360141.1	Genbank	CDS	584	712	.	+	0	ID=cds-AWK91059.1;Parent=gene-PA-X;Dbxref=NCBI_GP:AWK91059.1;Name=AWK91059.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=AWK91059.1
+##sequence-region MH360142.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360142.1	Genbank	region	1	1752	.	+	.	ID=MH360142.1:1..1752;Dbxref=taxon:11320;Name=4;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=4;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360142.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+MH360142.1	Genbank	CDS	21	1721	.	+	0	ID=cds-AWK91060.1;Parent=gene-HA;Dbxref=NCBI_GP:AWK91060.1;Name=AWK91060.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AWK91060.1
+MH360142.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-AWK91060.1:1..17;Parent=cds-AWK91060.1;gbkey=Prot
+MH360142.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-AWK91060.1:18..344;Parent=cds-AWK91060.1;gbkey=Prot;product=HA1
+MH360142.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-AWK91060.1:345..566;Parent=cds-AWK91060.1;gbkey=Prot;product=HA2
+##sequence-region MH360143.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360143.1	Genbank	region	1	1540	.	+	.	ID=MH360143.1:1..1540;Dbxref=taxon:11320;Name=5;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=5;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360143.1	Genbank	gene	34	1530	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+MH360143.1	Genbank	CDS	34	1530	.	+	0	ID=cds-AWK91061.1;Parent=gene-NP;Dbxref=NCBI_GP:AWK91061.1;Name=AWK91061.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=AWK91061.1
+##sequence-region MH360144.1 1 1433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360144.1	Genbank	region	1	1433	.	+	.	ID=MH360144.1:1..1433;Dbxref=taxon:11320;Name=6;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=6;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360144.1	Genbank	gene	9	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+MH360144.1	Genbank	CDS	9	1418	.	+	0	ID=cds-AWK91062.1;Parent=gene-NA;Dbxref=NCBI_GP:AWK91062.1;Name=AWK91062.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AWK91062.1
+##sequence-region MH360145.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360145.1	Genbank	region	1	1002	.	+	.	ID=MH360145.1:1..1002;Dbxref=taxon:11320;Name=7;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=7;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360145.1	Genbank	gene	14	995	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+MH360145.1	Genbank	CDS	14	39	.	+	0	ID=cds-AWK91064.1;Parent=gene-M2;Dbxref=NCBI_GP:AWK91064.1;Name=AWK91064.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AWK91064.1
+MH360145.1	Genbank	CDS	728	995	.	+	1	ID=cds-AWK91064.1;Parent=gene-M2;Dbxref=NCBI_GP:AWK91064.1;Name=AWK91064.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AWK91064.1
+MH360145.1	Genbank	gene	14	772	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+MH360145.1	Genbank	CDS	14	772	.	+	0	ID=cds-AWK91063.1;Parent=gene-M1;Dbxref=NCBI_GP:AWK91063.1;Name=AWK91063.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=AWK91063.1
+##sequence-region MH360146.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MH360146.1	Genbank	region	1	865	.	+	.	ID=MH360146.1:1..865;Dbxref=taxon:11320;Name=8;collection-date=12-Mar-2018;country=USA: Oklahoma;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:Original;segment=8;serotype=H1N1;strain=A/Oklahoma/18/2018
+MH360146.1	Genbank	gene	15	852	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+MH360146.1	Genbank	CDS	15	44	.	+	0	ID=cds-AWK91066.1;Parent=gene-NEP;Dbxref=NCBI_GP:AWK91066.1;Name=AWK91066.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AWK91066.1
+MH360146.1	Genbank	CDS	517	852	.	+	0	ID=cds-AWK91066.1;Parent=gene-NEP;Dbxref=NCBI_GP:AWK91066.1;Name=AWK91066.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AWK91066.1
+MH360146.1	Genbank	gene	15	674	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+MH360146.1	Genbank	CDS	15	674	.	+	0	ID=cds-AWK91065.1;Parent=gene-NS1;Dbxref=NCBI_GP:AWK91065.1;Name=AWK91065.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=AWK91065.1
+###

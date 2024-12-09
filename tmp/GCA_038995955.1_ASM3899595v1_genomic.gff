@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3899595v1
+#!genome-build-accession NCBI_Assembly:GCA_038995955.1
+##sequence-region CY263236.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263236.1	Genbank	region	1	2316	.	+	.	ID=CY263236.1:1..2316;Dbxref=taxon:2067601;Name=1;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=1;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263236.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+CY263236.1	Genbank	CDS	16	2295	.	+	0	ID=cds-AUI43493.1;Parent=gene-PB2;Dbxref=NCBI_GP:AUI43493.1;Name=AUI43493.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=AUI43493.1
+##sequence-region CY263237.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263237.1	Genbank	region	1	2316	.	+	.	ID=CY263237.1:1..2316;Dbxref=taxon:2067601;Name=2;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=2;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263237.1	Genbank	gene	13	2286	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+CY263237.1	Genbank	CDS	13	2286	.	+	0	ID=cds-AUI43494.1;Parent=gene-PB1;Dbxref=NCBI_GP:AUI43494.1;Name=AUI43494.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=AUI43494.1
+CY263237.1	Genbank	gene	107	379	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+CY263237.1	Genbank	sequence_feature	107	379	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region CY263238.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263238.1	Genbank	region	1	2208	.	+	.	ID=CY263238.1:1..2208;Dbxref=taxon:2067601;Name=3;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=3;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263238.1	Genbank	gene	13	2163	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+CY263238.1	Genbank	CDS	13	2163	.	+	0	ID=cds-AUI43495.1;Parent=gene-PA;Dbxref=NCBI_GP:AUI43495.1;Name=AUI43495.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=AUI43495.1
+CY263238.1	Genbank	gene	13	712	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+CY263238.1	Genbank	CDS	13	582	.	+	0	ID=cds-AUI43496.1;Parent=gene-PA-X;Dbxref=NCBI_GP:AUI43496.1;Name=AUI43496.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=AUI43496.1
+CY263238.1	Genbank	CDS	584	712	.	+	0	ID=cds-AUI43496.1;Parent=gene-PA-X;Dbxref=NCBI_GP:AUI43496.1;Name=AUI43496.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=AUI43496.1
+##sequence-region CY263239.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263239.1	Genbank	region	1	1752	.	+	.	ID=CY263239.1:1..1752;Dbxref=taxon:2067601;Name=4;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=4;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263239.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY263239.1	Genbank	CDS	21	1721	.	+	0	ID=cds-AUI43497.1;Parent=gene-HA;Dbxref=NCBI_GP:AUI43497.1;Name=AUI43497.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AUI43497.1
+CY263239.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-AUI43497.1:1..17;Parent=cds-AUI43497.1;gbkey=Prot
+CY263239.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-AUI43497.1:18..344;Parent=cds-AUI43497.1;gbkey=Prot;product=HA1
+CY263239.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-AUI43497.1:345..566;Parent=cds-AUI43497.1;gbkey=Prot;product=HA2
+##sequence-region CY263240.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263240.1	Genbank	region	1	1540	.	+	.	ID=CY263240.1:1..1540;Dbxref=taxon:2067601;Name=5;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=5;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263240.1	Genbank	gene	34	1530	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+CY263240.1	Genbank	CDS	34	1530	.	+	0	ID=cds-AUI43498.1;Parent=gene-NP;Dbxref=NCBI_GP:AUI43498.1;Name=AUI43498.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=AUI43498.1
+##sequence-region CY263241.1 1 1433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263241.1	Genbank	region	1	1433	.	+	.	ID=CY263241.1:1..1433;Dbxref=taxon:2067601;Name=6;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=6;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263241.1	Genbank	gene	9	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY263241.1	Genbank	CDS	9	1418	.	+	0	ID=cds-AUI43499.1;Parent=gene-NA;Dbxref=NCBI_GP:AUI43499.1;Name=AUI43499.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AUI43499.1
+##sequence-region CY263242.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263242.1	Genbank	region	1	1002	.	+	.	ID=CY263242.1:1..1002;Dbxref=taxon:2067601;Name=7;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=7;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263242.1	Genbank	gene	14	995	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+CY263242.1	Genbank	CDS	14	39	.	+	0	ID=cds-AUI43501.1;Parent=gene-M2;Dbxref=NCBI_GP:AUI43501.1;Name=AUI43501.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AUI43501.1
+CY263242.1	Genbank	CDS	728	995	.	+	1	ID=cds-AUI43501.1;Parent=gene-M2;Dbxref=NCBI_GP:AUI43501.1;Name=AUI43501.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=AUI43501.1
+CY263242.1	Genbank	gene	14	772	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+CY263242.1	Genbank	CDS	14	772	.	+	0	ID=cds-AUI43500.1;Parent=gene-M1;Dbxref=NCBI_GP:AUI43500.1;Name=AUI43500.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=AUI43500.1
+##sequence-region CY263243.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2067601
+CY263243.1	Genbank	region	1	865	.	+	.	ID=CY263243.1:1..865;Dbxref=taxon:2067601;Name=8;collection-date=03-Dec-2017;country=USA: Arkansas;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens%3B gender F%3B age 54;note=passage details: Original;segment=8;serotype=H1N1;strain=A/Arkansas/42/2017
+CY263243.1	Genbank	gene	15	852	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+CY263243.1	Genbank	CDS	15	44	.	+	0	ID=cds-AUI43503.1;Parent=gene-NEP;Dbxref=NCBI_GP:AUI43503.1;Name=AUI43503.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AUI43503.1
+CY263243.1	Genbank	CDS	517	852	.	+	0	ID=cds-AUI43503.1;Parent=gene-NEP;Dbxref=NCBI_GP:AUI43503.1;Name=AUI43503.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=AUI43503.1
+CY263243.1	Genbank	gene	15	674	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY263243.1	Genbank	CDS	15	674	.	+	0	ID=cds-AUI43502.1;Parent=gene-NS1;Dbxref=NCBI_GP:AUI43502.1;Name=AUI43502.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=AUI43502.1
+###

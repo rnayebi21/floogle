@@ -1,0 +1,59 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3860749v1
+#!genome-build-accession NCBI_Assembly:GCA_038607495.1
+##sequence-region KX977694.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX977694.1	Genbank	region	1	2341	.	+	.	ID=KX977694.1:1..2341;Dbxref=taxon:1908085;Name=1;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=1;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX977694.1	Genbank	gene	28	2307	.	+	.	ID=gene-BHT32_EMC71_PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_PB2
+KX977694.1	Genbank	CDS	28	2307	.	+	0	ID=cds-APC30459.1;Parent=gene-BHT32_EMC71_PB2;Dbxref=NCBI_GP:APC30459.1;Name=APC30459.1;gbkey=CDS;gene=PB2;locus_tag=BHT32_EMC71_PB2;product=polymerase PB2;protein_id=APC30459.1
+##sequence-region KX979725.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX979725.1	Genbank	region	1	2341	.	+	.	ID=KX979725.1:1..2341;Dbxref=taxon:1908085;Name=2;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=2;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX979725.1	Genbank	gene	25	2298	.	+	.	ID=gene-BHT32_EMC71_PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_PB1
+KX979725.1	Genbank	CDS	25	2298	.	+	0	ID=cds-APC26776.1;Parent=gene-BHT32_EMC71_PB1;Dbxref=NCBI_GP:APC26776.1;Name=APC26776.1;gbkey=CDS;gene=PB1;locus_tag=BHT32_EMC71_PB1;product=polymerase PB1;protein_id=APC26776.1
+KX979725.1	Genbank	gene	119	391	.	+	.	ID=gene-BHT32_EMC71_PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_PB1-F2
+KX979725.1	Genbank	CDS	119	391	.	+	0	ID=cds-APC26777.1;Parent=gene-BHT32_EMC71_PB1-F2;Dbxref=NCBI_GP:APC26777.1;Name=APC26777.1;gbkey=CDS;gene=PB1-F2;locus_tag=BHT32_EMC71_PB1-F2;product=PB1-F2 protein;protein_id=APC26777.1
+##sequence-region KX978707.1 1 2233
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX978707.1	Genbank	region	1	2233	.	+	.	ID=KX978707.1:1..2233;Dbxref=taxon:1908085;Name=3;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=3;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX978707.1	Genbank	gene	25	2175	.	+	.	ID=gene-BHT32_EMC71_PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_PA
+KX978707.1	Genbank	CDS	25	2175	.	+	0	ID=cds-APC31905.1;Parent=gene-BHT32_EMC71_PA;Dbxref=NCBI_GP:APC31905.1;Name=APC31905.1;gbkey=CDS;gene=PA;locus_tag=BHT32_EMC71_PA;product=polymerase PA;protein_id=APC31905.1
+KX978707.1	Genbank	gene	25	784	.	+	.	ID=gene-BHT32_EMC71_PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_PA-X
+KX978707.1	Genbank	CDS	25	597	.	+	0	ID=cds-APC31904.1;Parent=gene-BHT32_EMC71_PA-X;Dbxref=NCBI_GP:APC31904.1;Name=APC31904.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;locus_tag=BHT32_EMC71_PA-X;product=PA-X protein;protein_id=APC31904.1
+KX978707.1	Genbank	CDS	599	784	.	+	0	ID=cds-APC31904.1;Parent=gene-BHT32_EMC71_PA-X;Dbxref=NCBI_GP:APC31904.1;Name=APC31904.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;locus_tag=BHT32_EMC71_PA-X;product=PA-X protein;protein_id=APC31904.1
+##sequence-region KX978591.1 1 1777
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX978591.1	Genbank	region	1	1777	.	+	.	ID=KX978591.1:1..1777;Dbxref=taxon:1908085;Name=4;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=4;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX978591.1	Genbank	gene	33	1733	.	+	.	ID=gene-BHT32_EMC71_HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_HA
+KX978591.1	Genbank	CDS	33	1733	.	+	0	ID=cds-APC31734.1;Parent=gene-BHT32_EMC71_HA;Dbxref=NCBI_GP:APC31734.1;Name=APC31734.1;gbkey=CDS;gene=HA;locus_tag=BHT32_EMC71_HA;product=hemagglutinin;protein_id=APC31734.1
+KX978591.1	Genbank	mature_protein_region_of_CDS	84	1064	.	+	.	ID=id-APC31734.1:18..344;Parent=cds-APC31734.1;gbkey=Prot;gene=HA;locus_tag=BHT32_EMC71_HA;product=HA1
+KX978591.1	Genbank	mature_protein_region_of_CDS	1065	1730	.	+	.	ID=id-APC31734.1:345..566;Parent=cds-APC31734.1;gbkey=Prot;gene=HA;locus_tag=BHT32_EMC71_HA;product=HA2
+##sequence-region KX979089.1 1 1565
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX979089.1	Genbank	region	1	1565	.	+	.	ID=KX979089.1:1..1565;Dbxref=taxon:1908085;Name=5;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=5;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX979089.1	Genbank	gene	46	1542	.	+	.	ID=gene-BHT32_EMC71_NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_NP
+KX979089.1	Genbank	CDS	46	1542	.	+	0	ID=cds-APC32439.1;Parent=gene-BHT32_EMC71_NP;Dbxref=NCBI_GP:APC32439.1;Name=APC32439.1;gbkey=CDS;gene=NP;locus_tag=BHT32_EMC71_NP;product=nucleocapsid protein;protein_id=APC32439.1
+##sequence-region KX978181.1 1 1458
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX978181.1	Genbank	region	1	1458	.	+	.	ID=KX978181.1:1..1458;Dbxref=taxon:1908085;Name=6;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=6;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX978181.1	Genbank	gene	21	1430	.	+	.	ID=gene-BHT32_EMC71_NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_NA
+KX978181.1	Genbank	CDS	21	1430	.	+	0	ID=cds-APC31151.1;Parent=gene-BHT32_EMC71_NA;Dbxref=NCBI_GP:APC31151.1;Name=APC31151.1;gbkey=CDS;gene=NA;locus_tag=BHT32_EMC71_NA;product=neuraminidase;protein_id=APC31151.1
+##sequence-region KX978575.1 1 1027
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX978575.1	Genbank	region	1	1027	.	+	.	ID=KX978575.1:1..1027;Dbxref=taxon:1908085;Name=7;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=7;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX978575.1	Genbank	gene	26	1007	.	+	.	ID=gene-BHT32_EMC71_M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_M2
+KX978575.1	Genbank	CDS	26	51	.	+	0	ID=cds-APC31713.1;Parent=gene-BHT32_EMC71_M2;Dbxref=NCBI_GP:APC31713.1;Name=APC31713.1;gbkey=CDS;gene=M2;locus_tag=BHT32_EMC71_M2;product=matrix protein 2;protein_id=APC31713.1
+KX978575.1	Genbank	CDS	740	1007	.	+	1	ID=cds-APC31713.1;Parent=gene-BHT32_EMC71_M2;Dbxref=NCBI_GP:APC31713.1;Name=APC31713.1;gbkey=CDS;gene=M2;locus_tag=BHT32_EMC71_M2;product=matrix protein 2;protein_id=APC31713.1
+KX978575.1	Genbank	gene	26	784	.	+	.	ID=gene-BHT32_EMC71_M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_M1
+KX978575.1	Genbank	CDS	26	784	.	+	0	ID=cds-APC31712.1;Parent=gene-BHT32_EMC71_M1;Dbxref=NCBI_GP:APC31712.1;Name=APC31712.1;gbkey=CDS;gene=M1;locus_tag=BHT32_EMC71_M1;product=matrix protein 1;protein_id=APC31712.1
+##sequence-region KX979565.1 1 890
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1908085
+KX979565.1	Genbank	region	1	890	.	+	.	ID=KX979565.1:1..890;Dbxref=taxon:1908085;Name=8;collection-date=17-Jan-2011;country=Netherlands;gbkey=Src;mol_type=viral cRNA;nat-host=Anser albifrons;segment=8;serotype=H1N1;strain=A/greater white-fronted goose/Netherlands/4/2011
+KX979565.1	Genbank	gene	27	864	.	+	.	ID=gene-BHT32_EMC71_NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2;locus_tag=BHT32_EMC71_NEP
+KX979565.1	Genbank	CDS	27	56	.	+	0	ID=cds-APC33135.1;Parent=gene-BHT32_EMC71_NEP;Dbxref=NCBI_GP:APC33135.1;Name=APC33135.1;gbkey=CDS;gene=NEP;locus_tag=BHT32_EMC71_NEP;product=nuclear export protein;protein_id=APC33135.1
+KX979565.1	Genbank	CDS	529	864	.	+	0	ID=cds-APC33135.1;Parent=gene-BHT32_EMC71_NEP;Dbxref=NCBI_GP:APC33135.1;Name=APC33135.1;gbkey=CDS;gene=NEP;locus_tag=BHT32_EMC71_NEP;product=nuclear export protein;protein_id=APC33135.1
+KX979565.1	Genbank	gene	27	719	.	+	.	ID=gene-BHT32_EMC71_NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding;locus_tag=BHT32_EMC71_NS1
+KX979565.1	Genbank	CDS	27	719	.	+	0	ID=cds-APC33134.1;Parent=gene-BHT32_EMC71_NS1;Dbxref=NCBI_GP:APC33134.1;Name=APC33134.1;gbkey=CDS;gene=NS1;locus_tag=BHT32_EMC71_NS1;product=nonstructural protein 1;protein_id=APC33134.1
+###

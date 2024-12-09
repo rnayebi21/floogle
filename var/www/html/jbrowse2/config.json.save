@@ -1,0 +1,800 @@
+{
+  "assemblies": [
+    {
+      "name": "H1N1_Japan_2018",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "H1N1_Japan_2018-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h1n1.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h1n1.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "H1N1_California_Human_2009",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "H1N1_California_Human_2009-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "H1N1_California_Human_2009.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "H1N1_California_Human_2009.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "H1N1_Guangdong_Swine_2009",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "H1N1_Guangdong_Swine_2009-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "H1N1_Guangdong_2009.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "H1N1_Guangdong_2009.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "H1N1_Alabama_2020",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "H1N1_Alabama_2020-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "H1N1_Alabama_2020.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "H1N1_Alabama_2020.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "co_2018",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "co_2018-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "co_2018.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "co_2018.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "wsn_1933",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "wsn_1933-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "wsn_1933.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "wsn_1933.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "puerto_rico_1934",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "puerto_rico_1934-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "puerto_rico_1934.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "puerto_rico_1934.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "new_york_2001",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "new_york_2001-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "new_york_2001.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "new_york_2001.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "alaska_2018",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "alaska_2018-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "alaska_2018.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "alaska_2018.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "arkansas_2017",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "arkansas_2017-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "arkansas_2017.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "arkansas_2017.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "oklahoma_2018",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "oklahoma_2018-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "oklahoma_2018.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "oklahoma_2018.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "shanghai_2013",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "shanghai_2013-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "shanghai_2013.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "shanghai_2013.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "brownsville_2009",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "brownsville_2009-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "brownsville_2009.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "brownsville_2009.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "texas_2009",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "texas_2009-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "texas_2009.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "texas_2009.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "russia_1977",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "russia_1977-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "russia_1977.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "russia_1977.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "netherlands_2011",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "netherlands_2011-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "netherlands_2011.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "netherlands_2011.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "h1n1_genes.gff",
+      "name": "h1n1_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "h1n1_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "h1n1_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "H1N1_Japan_2018"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cali_human_2009_genes.gff",
+      "name": "cali_human_2009_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "cali_human_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "cali_human_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "H1N1_California_Human_2009"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "guangdong_swine_2009_genes.gff",
+      "name": "guangdong_swine_2009_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "guangdong_swine_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "guangdong_swine_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "H1N1_Guangdong_Swine_2009"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "alabama_2020_genes.gff",
+      "name": "alabama_2020_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "alabama_2020_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alabama_2020_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "H1N1_Alabama_2020"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "co_2018_genes.gff",
+      "name": "co_2018_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "co_2018_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "co_2018_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "co_2018"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "wsn_1933_genes.gff",
+      "name": "wsn_1933_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "wsn_1933_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "wsn_1933_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "wsn_1933"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "puerto_rico_1934_genes.gff",
+      "name": "puerto_rico_1934_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "puerto_rico_1934_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "puerto_rico_1934_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "puerto_rico_1934"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "new_york_2001_genes.gff",
+      "name": "new_york_2001_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "new_york_2001_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "new_york_2001_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "new_york_2001"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "alaska_2018_genes.gff",
+      "name": "alaska_2018_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "alaska_2018_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alaska_2018_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "alaska_2018"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "arkansas_2017_genes.gff",
+      "name": "arkansas_2017_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "arkansas_2017_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "arkansas_2017_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "arkansas_2017"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "oklahoma_2018_genes.gff",
+      "name": "oklahoma_2018_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "oklahoma_2018_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "oklahoma_2018_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "oklahoma_2018"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "shanghai_2013_genes.gff",
+      "name": "shanghai_2013_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "shanghai_2013_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "shanghai_2013_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "shanghai_2013"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "brownsville_2009_genes.gff",
+      "name": "brownsville_2009_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "brownsville_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "brownsville_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "brownsville_2009"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "texas_2009_genes.gff",
+      "name": "texas_2009_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "texas_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "texas_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "texas_2009"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "russia_1977_genes.gff",
+      "name": "russia_1977_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "russia_1977_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "russia_1977_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "russia_1977"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "netherlands_2011_genes.gff",
+      "name": "netherlands_2011_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "netherlands_2011_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "netherlands_2011_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "netherlands_2011"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "h1n1-index",
+      "ixFilePath": {
+        "uri": "trix/h1n1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/h1n1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/h1n1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "H1N1_Japan_2018"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "H1N1_Japan_2018-index",
+      "ixFilePath": {
+        "uri": "trix/H1N1_Japan_2018.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/H1N1_Japan_2018.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/H1N1_Japan_2018_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "H1N1_Japan_2018"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "H1N1_California_Human_2009-index",
+      "ixFilePath": {
+        "uri": "trix/H1N1_California_Human_2009.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/H1N1_California_Human_2009.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/H1N1_California_Human_2009_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "H1N1_California_Human_2009"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "H1N1_Guangdong_Swine_2009-index",
+      "ixFilePath": {
+        "uri": "trix/H1N1_Guangdong_Swine_2009.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/H1N1_Guangdong_Swine_2009.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/H1N1_Guangdong_Swine_2009_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "H1N1_Guangdong_Swine_2009"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "H1N1_Alabama_2020-index",
+      "ixFilePath": {
+        "uri": "trix/H1N1_Alabama_2020.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/H1N1_Alabama_2020.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/H1N1_Alabama_2020_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "H1N1_Alabama_2020"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "co_2018-index",
+      "ixFilePath": {
+        "uri": "trix/co_2018.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/co_2018.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/co_2018_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "co_2018"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "wsn_1933-index",
+      "ixFilePath": {
+        "uri": "trix/wsn_1933.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/wsn_1933.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/wsn_1933_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "wsn_1933"
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "name": "MsaView",
+      "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
+    },
+    {
+      "name": "MafViewer",
+      "url": "https://unpkg.com/jbrowse-plugin-mafviewer/dist/jbrowse-plugin-mafviewer.umd.production.min.js"
+    },
+    {
+      "name": "Protein3d",
+      "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js"
+    }
+  ]
+}
