@@ -1,6 +1,6 @@
 # README
 
-To access the website go to[https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html](https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html)
+To access the website go to [https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html](https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html)
 
 ## Pre-requisites
 
