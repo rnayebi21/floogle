@@ -1,5 +1,7 @@
 # README
 
+To access the website go to[https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html](https://rnayebi21.github.io/floogle/var/www/html/jbrowse2/index.html)
+
 ## Pre-requisites
 
 Ensure the following tools are installed and available in your environment:
