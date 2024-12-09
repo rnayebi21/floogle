@@ -23,7 +23,7 @@ mkdir tmp
 ### Set the `APACHE_ROOT` path
 
 ```bash
-export APACHE_ROOT='/path/to/rootdir'
+export APACHE_ROOT='/var/www/html'
 ```
 
 ### Download Genomic Data
